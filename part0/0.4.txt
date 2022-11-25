@@ -1,0 +1,5 @@
+browser->server: POST https://studies.cs.helsinki.fi/exampleapp/new_note
+server->browser: Status: CODE 302
+browser->server: GET /notes
+
+note over browser: Reloads the page

@@ -1,0 +1,6 @@
+browser->server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+note over server: The content type tells the server the POST is a .json format
+note over server: The data is add to the page using javascript
+server->browser: CODE 201
+
+end note
